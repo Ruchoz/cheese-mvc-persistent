@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
 
-//@Transactional
+@Transactional
 @Repository
 public interface CategoryDao  extends CrudRepository<Category, Integer> {
 }

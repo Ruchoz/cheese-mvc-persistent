@@ -42,11 +42,7 @@ public class CategoryController {
             return "category/add";
         }
 
-        System.out.println("category saved______________________________");
-        System.out.println(category.getId());
-        System.out.println(category.getName());
         categoryDao.save(category);
-        System.out.println("After saving__________________________");
         return index(model);
 
     }
