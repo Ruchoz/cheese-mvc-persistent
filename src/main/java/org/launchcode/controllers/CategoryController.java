@@ -14,7 +14,7 @@ import javax.validation.Valid;
 
 @Controller
 @RequestMapping("category")
-public class CategoryController {
+  public class CategoryController {
 
     @Autowired
     private CategoryDao categoryDao;
@@ -45,7 +45,7 @@ public class CategoryController {
         categoryDao.save(category);
         return index(model);
 
-    }
+     }
 
 
 

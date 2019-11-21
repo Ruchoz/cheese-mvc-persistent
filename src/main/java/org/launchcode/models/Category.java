@@ -1,4 +1,4 @@
-package org.launchcode.models;
+   package org.launchcode.models;
 
 
 import javax.persistence.*;
@@ -45,7 +45,7 @@ public class Category {
     public String getName() {
         return name;
     }
-
+     
     public void setName(String name) {
         this.name = name;
     }
